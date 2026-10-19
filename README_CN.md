@@ -6,7 +6,7 @@
 
 <a href="https://anyverse.com/"><img src="docs/images/anyverse-dynamics-logo.png" width="280" alt="无界动力"></a>
 
-[完整采集方案](https://github.com/jiejie567/MonoEgo) · [安装说明](docs/INSTALL.md) · [复现说明](REPRODUCIBILITY.md)
+[完整采集方案](https://github.com/Anyverse-Dynamics/MonoEgo) · [安装说明](docs/INSTALL.md) · [复现说明](REPRODUCIBILITY.md)
 
 </div>
 
@@ -63,7 +63,7 @@ MonoTag 在 ORB-SLAM3 的自然特征地图中引入已知尺寸的 marker 角�
 重建在 Ubuntu 24.04 上验证。先按[安装说明](docs/INSTALL.md)准备原生依赖和 ORB 词袋：
 
 ```bash
-git clone https://github.com/jiejie567/MonoTag-SLAM.git
+git clone https://github.com/Anyverse-Dynamics/MonoTag-SLAM.git
 cd MonoTag-SLAM
 make setup
 make native DEPS_PREFIX=/path/to/dependencies

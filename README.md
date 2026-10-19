@@ -5,7 +5,7 @@
 
 <a href="https://anyverse.com/"><img src="docs/images/anyverse-dynamics-logo.png" width="280" alt="Anyverse Dynamics"></a>
 
-[Project homepage](https://jiejie567.github.io/MonoEgo/) · [Capture system & hardware](https://github.com/jiejie567/MonoEgo) · [Installation](docs/INSTALL.md) · [Reproducibility](REPRODUCIBILITY.md)
+[Project homepage](https://jiejie567.github.io/MonoEgo/) · [Capture system & hardware](https://github.com/Anyverse-Dynamics/MonoEgo) · [Installation](docs/INSTALL.md) · [Reproducibility](REPRODUCIBILITY.md)
 
 </div>
 
@@ -67,7 +67,7 @@ Recordings, binaries, model weights, vocabulary, device-specific camera calibrat
 Ubuntu 24.04 is the validated reconstruction platform. Follow the [installation guide](docs/INSTALL.md) to provision OpenCV/Pangolin and vocabulary before building:
 
 ```bash
-git clone https://github.com/jiejie567/MonoTag-SLAM.git
+git clone https://github.com/Anyverse-Dynamics/MonoTag-SLAM.git
 cd MonoTag-SLAM
 make setup
 make native DEPS_PREFIX=/path/to/dependencies
@@ -95,7 +95,7 @@ Use your actual marker IDs, measured black-square dimensions and calibrated intr
 
 Outputs distinguish localization, metric scale, map identity and revision. World-frame wrist output requires a supported camera pose, a metric frame and an accepted fixture observation. Unsupported intervals remain invalid; display interpolation is not a measurement.
 
-Replay separates final offline reconstruction from the recorded mapping process. Hardware, example videos and compact result tables are in [MonoEgo](https://github.com/jiejie567/MonoEgo).
+Replay separates final offline reconstruction from the recorded mapping process. Hardware, example videos and compact result tables are in [MonoEgo](https://github.com/Anyverse-Dynamics/MonoEgo).
 
 ## Tests and reproducibility
 
